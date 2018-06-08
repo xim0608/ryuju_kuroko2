@@ -50,5 +50,5 @@ test:
 production:
   <<: *default
   database: ryuju_kuroko2_production
-  username: ryuju_kuroko2
+  username: root
   password: <%= ENV['RYUJU_KUROKO2_DATABASE_PASSWORD'] %>
