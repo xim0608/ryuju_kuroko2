@@ -11,7 +11,7 @@ default: &default
       mail_from: 'Kuroko2 <no-reply@example.com>'
       mail_to: "kuroko@example.com"
     slack:
-      webhook_url: 'https://localhost/test/slack'
+      webhook_url: <%= ENV["SLACK_WEBHOOK_URL"] %>
     hipchat:
       api_token: 'token'
       options:
