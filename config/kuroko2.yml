@@ -38,7 +38,7 @@ test:
 
 production:
   <<: *default
-  url: 'https://kuroko2.example.com'
+  url: 'https://kuroko2.ryuju.com'
 #  action_mailer:
 #    delivery_method: 'smtp'
 #    smtp_settings:
